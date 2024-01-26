@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="rtk_recording_sample" name="rtk_recording_sample" type="rtk_recording_sample" respawn="false" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,6 @@
+Name: tempate
+Description: template library
+Requires: eigen3 pcl_common-1.10
+Version: ${PROJECT_VERSION}
+Libs: -L${CMAKE_INSTALL_PREFIX}/lib -ltemplate
+Cflags: -I${CMAKE_INSTALL_PREFIX}/include/jarvis
